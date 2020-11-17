@@ -7,7 +7,7 @@
 
 Enjoy~
 
-![image](https://github.com/lexsaints/powershell/blob/master/IMG/ps2.png)
-![image](https://github.com/lexsaints/powershell/blob/master/IMG/ps2.png)
+![image](https://github.com/ziruih999/Panda-Finder/blob/main/readmeIMG/game.png)
+![image](https://github.com/ziruih999/Panda-Finder/blob/main/readmeIMG/help%20page.png)
 
 
