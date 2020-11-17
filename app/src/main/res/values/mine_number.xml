@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<integer-array name="mine_number">
+    <item>6</item>
+    <item>10</item>
+    <item>15</item>
+    <item>20</item>
+</integer-array>
+
+<integer name="default_panda_num">6</integer>
+</resources>

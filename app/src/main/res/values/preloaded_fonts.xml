@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abril_fatface</item>
+        <item>@font/aclonica</item>
+        <item>@font/acme</item>
+        <item>@font/autour_one</item>
+        <item>@font/bungee_shade</item>
+        <item>@font/fredericka_the_great</item>
+        <item>@font/monofett</item>
+        <item>@font/palanquin_dark</item>
+        <item>@font/piedra</item>
+    </array>
+</resources>

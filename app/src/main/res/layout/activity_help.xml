@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/option_background"
+    tools:context=".HelpActivity">
+
+    <TextView
+        android:id="@+id/text_help"
+        android:layout_width="650dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:fontFamily="@font/acme"
+        android:text="@string/game_description"
+        android:textColor="#1E1E20"
+        android:textColorHighlight="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:fontFamily="@font/piedra"
+        android:text="@string/str_game_mechanism"
+        android:textColor="#1A1B19"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_author"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:fontFamily="@font/acme"
+        android:text="@string/help_page_author"
+        android:textColor="#1F201D"
+        android:textColorLink="#212345"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:text="@string/str_copyright"
+        android:textColor="#232323"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/text_icon"
+        app:layout_constraintStart_toStartOf="@+id/text_help" />
+
+    <TextView
+        android:id="@+id/text_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monofett"
+        android:text="@string/str_icons"
+        android:textColorLink="#212345"
+        app:layout_constraintBottom_toTopOf="@+id/text_bg_cr1"
+        app:layout_constraintStart_toStartOf="@+id/copyright" />
+
+    <TextView
+        android:id="@+id/text_bg_cr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/monofett"
+        android:text="@string/str_background1"
+        android:textColorLink="#212345"
+        app:layout_constraintBottom_toTopOf="@+id/text_bg_cr2"
+        app:layout_constraintStart_toStartOf="@+id/text_icon" />
+
+    <TextView
+        android:id="@+id/text_bg_cr2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/monofett"
+        android:text="@string/str_background2"
+        android:textColorLink="#212345"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/text_bg_cr1" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:text="@string/author_email"
+        app:layout_constraintBottom_toTopOf="@+id/course_web"
+        app:layout_constraintEnd_toEndOf="@+id/text_author" />
+
+    <TextView
+        android:id="@+id/course_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/acme"
+        android:text="@string/course_link"
+        android:textColorLink="#212345"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

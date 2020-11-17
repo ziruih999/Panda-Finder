@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">As3</string>
+    <string name="game_name">Panda Seeker</string>
+    <string name="game_description">Panda Seeker is a game where the player tries to find a certain number of pandas that hidden in bamboo forest. The player taps on a bush to inspect it. If a panda is hidden in the bush,
+then the panda is revealed. If there is no panda, then inspecting the bush triggers a scan which shows the
+count of hidden panda in the same row and column as the selected cell. This information allows the
+player to make smart choices about which bush to inspect. The goal is to find all the pandas using the
+minimum number of scans. </string>
+    <string name="help_page_author"> <a href="https://opencoursehub.cs.sfu.ca/bfraser/grav-cms/cmpt276/home/">Developer:Zirui Huang</a></string>
+    <string name="str_copyright">Copyright\u00a9</string>
+    <string name="str_game_mechanism">Game Mechanism</string>
+    <string name="str_icons"> <a href="https://www.iconfont.cn/">icons</a></string>
+    <string name="str_background1"> <a href="https://www.behance.net/gallery/65290819/Pixel-Art-Backgrounds-Tutorial-Skip">welcome page background</a></string>
+    <string name="str_background2"> <a href="https://www.pinterest.ca/pin/638033472193192699/">game page background</a></string>
+    <string name="board_option">"%1$d X %2$d"</string>
+    <string name="str_GO">GO</string>
+    <string name="str_SET_OPTION">SET OPTION</string>
+    <string name="str_HELP">HELP</string>
+    <string name="str_Board_Size">Board Size</string>
+    <string name="str_Number_of_Panda">Number of Panda</string>
+    <string name="str_Settings">Settings</string>
+    <string name="str_by_Zirui_Huang">by Zirui Huang</string>
+    <string name="str_MAIN_MENU">Main Menu</string>
+    <string name="str_erase">Erase Time Played</string>
+    <string name="str_reset_score">Reset all Best Score</string>
+    <string name="author_email">ziruih@sfu.ca</string>
+    <string name="course_link"> <a href="https://opencoursehub.cs.sfu.ca/bfraser/grav-cms/cmpt276/home/">Course Website</a></string>
+
+</resources>
